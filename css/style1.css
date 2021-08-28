@@ -74,3 +74,78 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+
+@media (max-width:1024px){
+    .right-part{
+        background-image: url(https://raw.githubusercontent.com/prasad66/08_Aug_21/main/images/image-header-mobile.jpg);
+    }
+    .left-part h1{
+        font-size: 28px;
+    }
+    .left-part{
+        padding: 30px;
+    }
+    .lower-part{
+        margin-top: 30px;
+
+    }
+    .box{
+        font-size: 80%;
+        margin-right: 10px;
+    }
+    .main{
+        height: 400px;
+        width: 700px;
+    }
+}
+
+@media (max-width:575px){
+    .main{
+        width: 330px;
+        min-height: 680px;
+        flex-direction: column;
+        
+    }
+    
+
+    .right-part{
+        width: 100%;
+        height: 30%;
+        order: 1;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+ 
+    }
+
+    .left-part{
+        width: 100%;
+        height: 70%;
+        order: 2;
+    }
+    .left-part{
+        padding: 30px;
+        text-align: center;
+    
+
+    }
+    .left-part h1{
+        font-size: 28px;
+    }
+    .left-part p{
+        width: 100%;
+    }
+
+    .lower-part{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .box{
+        margin-bottom: 18px;
+        font-size: 80%;
+    }
+}
+
+
